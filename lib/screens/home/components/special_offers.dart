@@ -78,15 +78,15 @@ class SpecialOfferCard extends StatelessWidget {
                 ),
                 Container(
                   decoration: BoxDecoration(
-                    gradient: LinearGradient(
-                      begin: Alignment.topCenter,
-                      end: Alignment.bottomCenter,
-                      colors: [
-                        Color(0xFF343434).withOpacity(0.4),
-                        Color(0xFF343434).withOpacity(0.15),
-                      ],
-                    ),
-                  ),
+                      // gradient: LinearGradient(
+                      //   begin: Alignment.topCenter,
+                      //   end: Alignment.bottomCenter,
+                      //   color: Color(0xFF343434).withOpacity(0.4),
+                      //   // Color(0xFF343434).withOpacity(0.15),
+                      //   // color: Colors.black12,
+                      //   // ,
+                      // ),
+                      ),
                 ),
                 Padding(
                   padding: EdgeInsets.symmetric(
